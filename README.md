@@ -1,6 +1,6 @@
 # learnyounode Course
 
-The repository contains the first three learnyounode exercises.
+The repository contains the learnyounode exercises.
 
 ## Exercises
  1. [Hello World](#hello-world)
@@ -11,6 +11,10 @@ The repository contains the first three learnyounode exercises.
  6. [Make it Modular](#make-it-modular)
  7. [HTTP Client](#http-client)
  8. [HTTP Collect](#http-collect)
+ 9. [Juggling Async](#juggling-async)
+ 10. [Time Server](#time-server)
+ 11. [HTTP File Server](#http-file-server)
+ 12. [HTTP UpperCaserer](#http-uppercaserer)
 
 ### Hello World
 Challenge: Print a HELLO WORLD.
@@ -34,4 +38,16 @@ Challenge: Make the same as the previous exercise but introducing an export modu
 Challenge: Make a request to a URL through HTTP Get method and use a response object on the function to listen events like data and print them.
 
 ### HTTP Collect
-Challenge: Make a request to a URL through HTTP Get method, use bl package to collect all data from the serve and then print it and its length.  
+Challenge: Make a request to a URL through HTTP Get method, use bl package to collect all data from the server and then print it and its length.  
+
+### Juggling Async
+Challenge: Make a request to three URLs through HTTP Get method, use bl package to collect all data and print them in the same order as the URLs are received.
+
+### Time Server
+Challenge: Listen connections on the port received as an argument and print the current date and time of them.
+
+### HTTP File Server
+Challenge: Listen connections on the port but this time with HTTP server and use the same file received as argument for each request.
+
+### HTTP UpperCaserer
+Challenge: Write an HTTP server that receives only POST requests, change the characters to upper-case and return them.
